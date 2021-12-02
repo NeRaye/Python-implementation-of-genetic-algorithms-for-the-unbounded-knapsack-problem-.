@@ -62,7 +62,7 @@ Lors l’application des opérations de croisement et de mutation, les solutions
 Algoritme de réparation :
         1. R= F(n) // valeur de la fonction d’adaptation pour le chromosome n
         2. Pour i=1,l :
-        Si n[i]=1 et R>V alors n[i] =0
+                Si n[i]=1 et R>V alors n[i] =0
         3. Pour i=l,1 :
         Si n[i]=0 et R<V alors n[i] =1
         V : capacité du sac, l : taille du chromosome
