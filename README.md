@@ -79,11 +79,11 @@ réalisable, on aura chromosome= 0000000000000001010100.
 Add phase : remplacer de droite à gauche les 0 par des 1 tant que la solution est réalisable,
 chromosome= 0000000000001111111111 qui est une solution réalisable.
 
-        1. Mécanisme de remplacement :
+        - Mécanisme de remplacement :
         Après avoir introduit les nouveaux chromosomes dans la populations, on doit la mettre à jour,
         la nouvelle génération est alors constituée des meilleurs individus de la population.
 
-        2. Condition d’arrêt :
+        - Condition d’arrêt :
         Lorsque le nombre maximum de générations est atteint on arrête le déroulement. Et on
         retourne le meilleur individu de la dernière génération comme solution final.
 
