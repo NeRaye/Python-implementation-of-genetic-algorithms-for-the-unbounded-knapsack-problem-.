@@ -96,12 +96,12 @@ chromosome= 0000000000001111111111 qui est une solution réalisable.
 Algorithme Algorithme_genetique (k, nb_iterations)
   1. Population = ensemble {n1,n2,.......nk}, généré aléatoirement de k chromosomes
   2. Pour t=1,..., nb iterations
-  2.1 pour i=1....k
-  2.1.1 n= chromosome pris dans la population avec probabilté qui augmente
-  selon F(n)
-  2.1.2 n’=chromosome pris dans la populatione de la méme façon
-  2.1.3 n*=resultat du crioisement entre n et n’, appliqué avec une proba Pc
-  2.1.4 avec petite proba Pm, appliquer une mutation sur n*
-  2.1.5 ajouter n* la population
-  2.2 Mettre à jours la population , on garndant les k meilleure chromosome
+    2.1 pour i=1....k
+      2.1.1 n= chromosome pris dans la population avec probabilté qui augmente
+      selon F(n)
+      2.1.2 n’=chromosome pris dans la populatione de la méme façon
+      2.1.3 n*=resultat du crioisement entre n et n’, appliqué avec une proba Pc
+      2.1.4 avec petite proba Pm, appliquer une mutation sur n*
+      2.1.5 ajouter n* la population
+    2.2 Mettre à jours la population , on garndant les k meilleure chromosome
   3. retourner n dans population avec valeur de F(n) la plus élévé
